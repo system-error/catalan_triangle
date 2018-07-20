@@ -10,3 +10,4 @@ for i in range(size):
 for row in range(1,size):
         for col in range(1,row + 1):
                 tbl[row][col] = tbl[row-1][col] + tbl[row][col-1]
+print(tbl)                
