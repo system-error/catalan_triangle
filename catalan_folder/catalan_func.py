@@ -1,2 +1,4 @@
 def catal():
-    pass
+    print("hello world")
+
+catal()    
